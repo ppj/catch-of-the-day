@@ -3,6 +3,7 @@
 import React from "react";
 import "./css/style.css"
 import { render } from "react-dom";
+import App from "./components/App"
 import StorePicker from "./components/StorePicker"
 
-render(<StorePicker/>, document.querySelector('#main'));
+render(<App/>, document.querySelector('#main'));
