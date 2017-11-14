@@ -4,9 +4,9 @@ class StorePicker extends React.Component {
   render() {
     return (
       <form className="store-selector">
-        <h2>Please enter a store name</h2>
+        <h2>Please enter a store</h2>
         <input type="text" required placeholder="Store name" />
-        <button type="submit">Visit 🏃</button>
+        <button type="submit">Visit 🚘</button>
       </form>
     )
   }
