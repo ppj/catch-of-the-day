@@ -3,7 +3,8 @@ import React from "react";
 import { getFunName } from "../helpers"
 
 class StorePicker extends React.Component {
-  goToStore() {
+  goToStore(event) {
+    event.preventDefault()
     console.log("You changed the URL dude!")
   }
 
